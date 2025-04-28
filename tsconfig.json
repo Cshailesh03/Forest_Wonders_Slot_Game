@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "es2016",                                 /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "commonjs",                               /* Specify the module code generation method. */
+    "rootDir": "./",                                    /* Specify the root folder of TypeScript files. */
+    "outDir": "./dist",                                 /* Specify the output folder for compiled files. */
+    "strict": true,                                     /* Enable all strict type-checking options. */
+    "esModuleInterop": true,                            /* Emit additional JavaScript to ease CommonJS imports. */
+    "skipLibCheck": true,                               /* Skip type checking of declaration files. */
+    "resolveJsonModule": true,                          /* Enable importing JSON files as modules. */
+
+    /* Module Resolution */
+    "moduleResolution": "node",                        /* Use Node.js module resolution for imports. */
+    "baseUrl": "./",                                   /* Specify the base directory for module resolution. */
+
+    /* TypeScript Features */
+    "forceConsistentCasingInFileNames": true,          /* Ensure consistent casing in module names. */
+    "noImplicitAny": true,                             /* Raise an error on declarations with an implicit `any` type. */
+    "strictNullChecks": true,                          /* Enable strict null checks. */
+
+    /* Emit Options */
+    "noEmitOnError": true,                             /* Do not emit output files if there are errors. */
+    "declaration": true,                               /* Generate corresponding `.d.ts` declaration files. */
+
+    /* Debugging Options */
+    "sourceMap": true,                                 /* Create source maps for debugging. */
+    "inlineSources": true                              /* Include the source code in the source maps. */
+  },
+  "include": [
+    "./**/*.ts"                                       /* Include all TypeScript files in the project directory. */
+  ],
+  "exclude": [
+    "node_modules",                                   /* Exclude `node_modules` from compilation. */
+    "dist"                                           /* Exclude output folder from compilation. */
+  ]
+}
